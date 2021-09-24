@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondotransparente1"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+        <TextView
+            android:id="@+id/txtusuario"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:background="@color/verde"
+            android:ems="2"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="371dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/gris"
+            android:text="tiempo transcurrido: tiempototal"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:gravity="center_vertical|center_horizontal"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:src="@drawable/reiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="100dp"
+        android:padding="20dp"
+        android:text="REGISTRAR" />
+
+    <ImageView
+        android:src="@drawable/pausa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200dp"
+        android:padding="20dp"
+        android:text="REGISTRAR" />
+
+    <ImageView
+        android:src="@drawable/siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="100dp"
+        android:padding="20dp"
+        android:text="REGISTRAR" />
+
+</RelativeLayout>
